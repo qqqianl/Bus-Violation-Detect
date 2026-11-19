@@ -1,0 +1,20 @@
+name: bus-road-yolo
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python=3.9
+  - pytorch=2.5
+  - torchvision=0.20
+  - pytorch-cuda=12.1
+  - numpy>=1.23
+  - opencv>=4.9
+  - pillow>=10.0
+  - pandas>=2.0
+  - scikit-learn>=1.6
+  - pip
+  - pip:
+      - ultralytics==8.3.229
+      - streamlit>=1.50
+
